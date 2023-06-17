@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.all-document {
+  width: 100%;
+  height: 100%;
+  background: #2a2c2f;
+  color: white;
+}
+
+.header {
+  padding: 16px 16px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+.language {
+  display: flex;
+  max-width: 62px;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+.language__ru {
+  text-decoration: underline;
+}
+.real-russia{
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.real-russia__text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding: 0px 19px 5px;
+}
+.real-russia__tagline {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  max-width: 262px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.real-russia__img {
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+.real-russia__img img {
+  display: block;
+  margin: 0 auto;
+}
+.real-russia__describe-foto {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0px 0px 64px 16px;
+}
+.wacation-statistick {
+    max-width: 320px;
+  margin: 0 auto;
+  padding: 0px 19px 65px 16px;
+}
+.wacation-statistick__header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  max-width: 207px;
+  width: 100%;
+}
+.wacation-statistick__main-text {
+  max-width: 285px;
+  width: 100%;
+  padding: 40px 0px 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.wacation-statistick__fackts {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 288px;
+  width: 100%;
+}
+.russian-foto{
+    max-width: 320px;
+    padding: 0px 16px 116px 16px;
+    margin: 0 auto;
+}
+.russian-foto__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.russian-foto__container img{
+    padding-bottom: 12px;
+    max-width: 288px;
+}
