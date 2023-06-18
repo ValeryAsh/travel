@@ -5,7 +5,9 @@
   background: #2a2c2f;
   color: white;
 }
-
+* {
+  font-family: "Inter", sans-serif;
+}
 .header {
   padding: 16px 16px 48px;
   display: flex;
@@ -32,10 +34,10 @@
 .language__ru {
   text-decoration: underline;
 }
-.real-russia{
-    max-width: 320px;
-    width: 100%;
-    margin: 0 auto;
+.real-russia {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
 }
 .real-russia__text h1 {
   font-family: "Inter";
@@ -73,10 +75,10 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  padding: 0px 0px 64px 16px;
+  padding: 0px 0px 67px 16px;
 }
 .wacation-statistick {
-    max-width: 320px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0px 19px 65px 16px;
 }
@@ -92,7 +94,7 @@
 .wacation-statistick__main-text {
   max-width: 285px;
   width: 100%;
-  padding: 40px 0px 32px;
+  padding: 35px 0px 34px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -108,16 +110,110 @@
   max-width: 288px;
   width: 100%;
 }
-.russian-foto{
-    max-width: 320px;
-    padding: 0px 16px 116px 16px;
-    margin: 0 auto;
+.russian-foto {
+  max-width: 320px;
+  padding: 0px 16px 118px 16px;
+  margin: 0 auto;
 }
-.russian-foto__container{
-    display: flex;
-    flex-wrap: wrap;
+.russian-foto__container {
+  display: flex;
+  flex-wrap: wrap;
 }
-.russian-foto__container img{
-    padding-bottom: 12px;
-    max-width: 288px;
+.russian-foto__container img {
+  padding-bottom: 12px;
+  max-width: 288px;
+}
+.attractions {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.attractions__cards-kursk {
+  padding-bottom: 79px;
+}
+.attractions__cards-kolsk {
+  padding-bottom: 53px;
+}
+.attractions__cards-altay {
+  padding-bottom: 53px;
+}
+.attractions__cards-baykal {
+  padding-bottom: 79px;
+}
+.attractions__cards-karelia {
+  padding-bottom: 0px;
+}
+.attractions__h3 {
+  padding: 0px 0px 30px 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+}
+.attractions__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 28px 16px 0px;
+}
+.attractions__text-p1 {
+  padding-bottom: 25px;
+}
+.banner {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.banner__container {
+  padding: 17px 23px 33px 22px;
+  background-image: url(../img/before_baykal_bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__container h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  max-width: 225px;
+  padding-bottom: 16px;
+}
+.banner__container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  max-width: 270px;
+}
+.footer {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 64px 0px 24px 16px;
+}
+.footer-menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 13px;
+}
+.footer-menu__link {
+  padding-bottom: 32px;
+}
+.footer-autograph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+a{
+  color: white;
 }
