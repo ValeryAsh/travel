@@ -35,8 +35,11 @@
   text-decoration: underline;
 }
 .real-russia {
-  max-width: 320px;
   width: 100%;
+  margin: 0 auto;
+}
+.real-russia__text{
+  max-width: 320px;
   margin: 0 auto;
 }
 .real-russia__text h1 {
@@ -62,6 +65,7 @@
 .real-russia__img {
   margin: 0 auto;
   padding-bottom: 8px;
+  width: 100%;
 }
 .real-russia__img img {
   display: block;
@@ -214,6 +218,112 @@
   font-size: 14px;
   line-height: 14px;
 }
-a{
+a {
   color: white;
+}
+@media (min-width: 768px) {
+  .header {
+    max-width: 768px;
+    padding: 28px 24px 55px 24px;
+  }
+  .logo__img {
+    height: 52px;
+    width: 176px;
+  }
+  .language__ru {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration-line: underline;
+  }
+  .language__en {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+  }
+  .real-russia {
+    max-width: 768px;
+  }
+  .real-russia__text {
+    max-width: 768px;
+}
+  .real-russia__text h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    padding: 0px 19px 26px;
+  }
+  .real-russia__tagline {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+    max-width: 491px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 56px;
+
+}
+.real-russia__img img{
+  width: 100%;
+  height: 480px;
+}
+.real-russia__describe-foto {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0px 0px 90px 23px;
+}
+.wacation-statistick {
+  max-width: 768px;
+  padding: 0px 24px 88px 24px;
+}
+.wacation-statistick__header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  max-width: 676px;
+  width: 100%;
+}
+.wacation-statistick__main-text {
+  max-width: 717px;
+  width: 100%;
+  padding: 35px 0px 34px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.russian-foto {
+  max-width: 768px;
+  padding: 0px 24px 118px 24px;
+}
+.russian-foto__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.russian-foto__container img {
+  padding-bottom: 16px;
+  max-width: 352px;
+  width: 100%;
+}
 }
