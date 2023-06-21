@@ -38,7 +38,7 @@
   width: 100%;
   margin: 0 auto;
 }
-.real-russia__text{
+.real-russia__text {
   max-width: 320px;
   margin: 0 auto;
 }
@@ -131,6 +131,26 @@
   max-width: 320px;
   margin: 0 auto;
 }
+.attractions__link {
+  display: none;
+}
+.attractions__link p {
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+}
+.attractions__link a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
 .attractions__cards-kursk {
   padding-bottom: 79px;
 }
@@ -153,6 +173,8 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
+  display: flex;
+  justify-content: space-between;
 }
 .attractions__text {
   font-family: "Inter";
@@ -171,7 +193,9 @@
 }
 .banner__container {
   padding: 17px 23px 33px 22px;
-  background-image: url(../img/before_baykal_bg.png);
+  background-image: url(../img/__overlay.png);
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -226,6 +250,10 @@ a {
     max-width: 768px;
     padding: 28px 24px 55px 24px;
   }
+  .attractions__link {
+    display: block;
+    color: #aaaaaa;
+  }
   .logo__img {
     height: 52px;
     width: 176px;
@@ -239,7 +267,7 @@ a {
     text-align: right;
     text-decoration-line: underline;
   }
-  .language__en {
+  .language__eng {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -252,7 +280,7 @@ a {
   }
   .real-russia__text {
     max-width: 768px;
-}
+  }
   .real-russia__text h1 {
     font-family: "Inter";
     font-style: normal;
@@ -263,67 +291,186 @@ a {
     padding: 0px 19px 26px;
   }
   .real-russia__tagline {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
     max-width: 491px;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 56px;
+  }
+  .real-russia__img img {
+    width: 100%;
+    height: 480px;
+  }
+  .real-russia__describe-foto {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0px 0px 90px 23px;
+  }
+  .wacation-statistick {
+    max-width: 768px;
+    padding: 0px 24px 88px 24px;
+  }
+  .wacation-statistick__header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 676px;
+    width: 100%;
+  }
+  .wacation-statistick__main-text {
+    max-width: 717px;
+    width: 100%;
+    padding: 35px 0px 34px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .russian-foto {
+    max-width: 768px;
+    padding: 0px 24px 75px 24px;
+  }
+  .russian-foto__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .russian-foto__container img {
+    padding-bottom: 16px;
+    max-width: 352px;
+    width: 100%;
+  }
+  .attractions {
+    max-width: 768px;
+    padding: 0px 24px 0px;
+  }
+  .attraction__container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-}
-.real-russia__img img{
-  width: 100%;
-  height: 480px;
-}
-.real-russia__describe-foto {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  padding: 0px 0px 90px 23px;
-}
-.wacation-statistick {
-  max-width: 768px;
-  padding: 0px 24px 88px 24px;
-}
-.wacation-statistick__header {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  max-width: 676px;
-  width: 100%;
-}
-.wacation-statistick__main-text {
-  max-width: 717px;
-  width: 100%;
-  padding: 35px 0px 34px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-.russian-foto {
-  max-width: 768px;
-  padding: 0px 24px 118px 24px;
-}
-.russian-foto__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.russian-foto__container img {
-  padding-bottom: 16px;
-  max-width: 352px;
-  width: 100%;
+  .attractions__h3-kursk {
+    padding: 0px 0px 43px 0px;
+    max-width: 475px;
+  }
+  .attractions__h3-kolsk {
+    padding: 0px 0px 42px 0px;
+    max-width: 541px;
+  }
+  .attractions__h3-altay {
+    padding: 0px 0px 43px 0px;
+    max-width: 452px;
+  }
+  .attractions__h3-baykal {
+    padding: 0px 0px 43px 0px;
+    max-width: 582px;
+  }
+  .attractions__h3-karelia {
+    padding: 0px 0px 43px 0px;
+    max-width: 533px;
+  }
+
+  .attractions__cards-kursk {
+    padding-bottom: 76px;
+  }
+  .attractions__cards-kolsk {
+    padding-bottom: 76px;
+  }
+  .attractions__cards-altay {
+    padding-bottom: 76px;
+  }
+  .attractions__cards-baykal {
+    padding-bottom: 75px;
+  }
+  .attractions__cards-karelia {
+    padding-bottom: 0px;
+  }
+
+  .attractions__h3 h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 328px;
+    width: 100%;
+  }
+  .attractions__text {
+    max-width: 352px;
+    padding: 0px;
+  }
+  .attractions__link-kursk {
+    padding-top: 45px;
+  }
+  .attractions__img {
+    max-width: 340px;
+    width: 100%;
+  }
+  .attractions__img img {
+    width: 100%;
+  }
+  .banner__container {
+    padding: 115px 131px 115px 131px;
+    margin-top: 70px;
+  }
+  .banner__container h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    max-width: 506px;
+    padding-bottom: 26px;
+  }
+  .language {
+    max-width: 76px;
+  }
+  .banner {
+    max-width: 100%;
+    width: 100%;
+  }
+  .banner__container p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 356px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 88px 24px 24px 24px;
+  }
+  .footer-menu {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 465px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-menu__link {
+    padding-bottom: 0px;
 }
 }
