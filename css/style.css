@@ -7,6 +7,7 @@
 }
 * {
   font-family: "Inter", sans-serif;
+  transition: all 0.2 ease;
 }
 .header {
   padding: 16px 16px 48px;
@@ -244,6 +245,12 @@
 }
 a {
   color: white;
+  cursor: pointer;
+}
+a:hover{
+  color: #2a2c2f;
+  transition: all 0.2 ease;
+
 }
 @media (min-width: 768px) {
   .header {
@@ -262,7 +269,6 @@ a {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
     line-height: 28px;
     text-align: right;
     text-decoration-line: underline;
@@ -472,5 +478,222 @@ a {
   }
   .footer-menu__link {
     padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    max-width: 1024px;
+    padding: 28px 48px 55px 48px;
+  }
+  .real-russia {
+    max-width: 1024px;
+    padding: 0px 48px;
+  }
+  .real-russia__img img {
+    width: 100%;
+    height: 580px;
+  }
+  .real-russia__describe-foto {
+    padding: 0px 0px 96px 23px;
+  }
+  .wacation-statistick {
+    max-width: 1024px;
+    padding: 0px 48px 88px 48px;
+  }
+
+  .russian-foto {
+    max-width: 1024px;
+    padding: 0px 48px 85px 48px;
+  }
+  .russian-foto__container img {
+    padding-bottom: 13px;
+    max-width: 302px;
+    width: 100%;
+  }
+  .attractions {
+    max-width: 1024px;
+    padding: 0px 48px 0px;
+  }
+  .attractions__link{
+        display: flex;
+    color: #aaaaaa;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .attractions__h3-kursk {
+    padding: 0px 0px 38px 0px;
+    max-width: 578px;
+  }
+  .attractions__h3-kolsk {
+    padding: 0px 0px 42px 0px;
+    max-width: 645px;
+  }
+  .attractions__h3-altay {
+    padding: 0px 0px 43px 0px;
+    max-width: 556px;
+  }
+  .attractions__h3-baykal {
+    padding: 0px 0px 41px 0px;
+    max-width: 686px;
+  }
+  .attractions__h3-karelia {
+    padding: 0px 0px 43px 0px;
+    max-width: 638px;
+  }
+
+  .attractions__cards-kursk {
+    padding-bottom: 88px;
+  }
+  .attractions__cards-kolsk {
+    padding-bottom: 81px;
+  }
+  .attractions__cards-altay {
+    padding-bottom: 86px;
+  }
+  .attractions__cards-baykal {
+    padding-bottom: 86px;
+  }
+  .attractions__cards-karelia {
+    padding-bottom: 0px;
+  }
+
+  .attractions__h3 h3 {
+    font-size: 72px;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: 76px;
+    max-width: 328px;
+    width: 100%;
+  }
+  .attractions__text {
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 30px;
+    max-width: 456px;
+    padding: 0px;
+  }
+  .attractions__link-kursk {
+    padding-top: 100px;
+  }
+  .attractions__img {
+    max-width: 440px;
+    width: 100%;
+  }
+
+  
+}
+
+
+@media (min-width: 1280px) {
+  .header {
+    max-width: 1280px;
+    padding: 28px 48px 64px 48px;
+  }
+  .real-russia {
+    max-width: 1280px;
+    padding: 0px 148px;
+  }
+  .real-russia__tagline {
+    padding-bottom: 63px;
+}
+  .real-russia__img img {
+    width: 100%;
+    height: 615px;
+  }
+  .real-russia__describe-foto {
+    padding: 0px 0px 96px 0px;
+  }
+  .wacation-statistick {
+    max-width: 1280px;
+    padding: 0px 48px 88px 148px;
+  }
+
+  .russian-foto {
+    max-width: 1280px;
+    padding: 0px 48px 18px 48px;
+  }
+  .russian-foto__container img {
+    padding-bottom: 16px;
+    max-width: 286px;
+    width: 100%;
+  }
+  .attractions {
+    max-width: 1280px;
+    padding: 0px 148px 0px;
+  }
+  .attractions__link{
+        display: flex;
+    color: #aaaaaa;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .attractions__h3-kursk {
+    padding: 0px 0px 100px 0px;
+    max-width: 578px;
+  }
+  .attractions__h3-kolsk {
+    padding: 0px 0px 39px 0px;
+    max-width: 673px;
+  }
+  .attractions__h3-altay {
+    padding: 0px 0px 38px 0px;
+    max-width: 584px;
+  }
+  .attractions__h3-baykal {
+    padding: 0px 0px 38px 0px;
+    max-width: 714px;
+  }
+  .attractions__h3-karelia {
+    padding: 0px 0px 38px 0px;
+    max-width: 664px;
+  }
+
+  .attractions__cards-kursk {
+    padding-bottom: 89px;
+  }
+  .attractions__cards-kolsk {
+    padding-bottom: 89px;
+  }
+  .attractions__cards-altay {
+    padding-bottom: 90px;
+  }
+  .attractions__cards-baykal {
+    padding-bottom: 90px;
+  }
+  .attractions__cards-karelia {
+    padding-bottom: 0px;
+  }
+
+  .attractions__h3 h3 {
+    font-size: 72px;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: 76px;
+    max-width: 328px;
+    width: 100%;
+  }
+  .attractions__text {
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 30px;
+    max-width: 484px;
+    padding: 0px;
+  }
+  .attractions__link-kursk {
+    padding-top: 100px;
+  }
+  .attractions__img {
+    max-width: 460px;
+    width: 100%;
+  }
+  .banner__container {
+    padding: 278px 131px 271px 131px;
+}
+.footer{
+  max-width: 1280px;
+  padding: 67px 48px 11px 40px;
 }
 }
