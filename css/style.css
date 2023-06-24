@@ -18,7 +18,7 @@
   width: 100%;
   margin: 0 auto;
 }
-.language {
+.header__language {
   display: flex;
   max-width: 62px;
   width: 100%;
@@ -32,7 +32,7 @@
   text-align: right;
   padding-bottom: 5px;
 }
-.language__ru {
+.header__language-ru {
   text-decoration: underline;
 }
 .real-russia {
@@ -82,12 +82,12 @@
   text-transform: uppercase;
   padding: 0px 0px 67px 16px;
 }
-.wacation-statistick {
+.vacation-statistick {
   max-width: 320px;
   margin: 0 auto;
   padding: 0px 19px 65px 16px;
 }
-.wacation-statistick__header {
+.vacation-statistick__header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -96,7 +96,7 @@
   max-width: 207px;
   width: 100%;
 }
-.wacation-statistick__main-text {
+.vacation-statistick__main-text {
   max-width: 285px;
   width: 100%;
   padding: 35px 0px 34px;
@@ -106,25 +106,27 @@
   font-size: 16px;
   line-height: 26px;
 }
-.wacation-statistick__fackts {
+.vacation-statistick__fackts {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   max-width: 288px;
   width: 100%;
 }
+.vacation-statistick__fackts span{
+  font-weight: 900;
+
+}
 .russian-foto {
   max-width: 320px;
   padding: 0px 16px 118px 16px;
   margin: 0 auto;
-}
-.russian-foto__container {
   display: flex;
   flex-wrap: wrap;
 }
-.russian-foto__container img {
+.russian-foto img {
   padding-bottom: 12px;
   max-width: 288px;
 }
@@ -168,7 +170,7 @@
   padding-bottom: 0px;
 }
 .attractions__h3 {
-  padding: 0px 0px 30px 16px;
+  padding: 50px 0px 30px 0px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -261,11 +263,11 @@ a:hover{
     display: block;
     color: #aaaaaa;
   }
-  .logo__img {
+  .header__logo-img {
     height: 52px;
     width: 176px;
   }
-  .language__ru {
+  .header__language-ru{
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -273,7 +275,7 @@ a:hover{
     text-align: right;
     text-decoration-line: underline;
   }
-  .language__eng {
+  .header__language-eng {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -322,11 +324,11 @@ a:hover{
     text-transform: uppercase;
     padding: 0px 0px 90px 23px;
   }
-  .wacation-statistick {
+  .vacation-statistick {
     max-width: 768px;
     padding: 0px 24px 88px 24px;
   }
-  .wacation-statistick__header {
+  .vacation-statistick__header {
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
@@ -335,7 +337,7 @@ a:hover{
     max-width: 676px;
     width: 100%;
   }
-  .wacation-statistick__main-text {
+  .vacation-statistick__main-text {
     max-width: 717px;
     width: 100%;
     padding: 35px 0px 34px;
@@ -348,13 +350,11 @@ a:hover{
   .russian-foto {
     max-width: 768px;
     padding: 0px 24px 75px 24px;
-  }
-  .russian-foto__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .russian-foto__container img {
+  .russian-foto img {
     padding-bottom: 16px;
     max-width: 352px;
     width: 100%;
@@ -442,7 +442,7 @@ a:hover{
     max-width: 506px;
     padding-bottom: 26px;
   }
-  .language {
+  .header__language {
     max-width: 76px;
   }
   .banner {
@@ -457,6 +457,12 @@ a:hover{
     line-height: 22px;
     text-align: center;
     max-width: 356px;
+  }
+  nav {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .footer {
     display: flex;
@@ -497,7 +503,7 @@ a:hover{
   .real-russia__describe-foto {
     padding: 0px 0px 96px 23px;
   }
-  .wacation-statistick {
+  .vacation-statistick {
     max-width: 1024px;
     padding: 0px 48px 88px 48px;
   }
@@ -506,7 +512,7 @@ a:hover{
     max-width: 1024px;
     padding: 0px 48px 85px 48px;
   }
-  .russian-foto__container img {
+  .russian-foto img {
     padding-bottom: 13px;
     max-width: 302px;
     width: 100%;
@@ -605,7 +611,7 @@ a:hover{
   .real-russia__describe-foto {
     padding: 0px 0px 96px 0px;
   }
-  .wacation-statistick {
+  .vacation-statistick {
     max-width: 1280px;
     padding: 0px 48px 88px 148px;
   }
@@ -614,7 +620,7 @@ a:hover{
     max-width: 1280px;
     padding: 0px 48px 18px 48px;
   }
-  .russian-foto__container img {
+  .russian-foto img {
     padding-bottom: 16px;
     max-width: 286px;
     width: 100%;
@@ -627,44 +633,7 @@ a:hover{
         display: flex;
     color: #aaaaaa;
     flex-direction: column;
-    justify-content: end;
-  }
-
-  .attractions__h3-kursk {
-    padding: 0px 0px 100px 0px;
-    max-width: 578px;
-  }
-  .attractions__h3-kolsk {
-    padding: 0px 0px 39px 0px;
-    max-width: 673px;
-  }
-  .attractions__h3-altay {
-    padding: 0px 0px 38px 0px;
-    max-width: 584px;
-  }
-  .attractions__h3-baykal {
-    padding: 0px 0px 38px 0px;
-    max-width: 714px;
-  }
-  .attractions__h3-karelia {
-    padding: 0px 0px 38px 0px;
-    max-width: 664px;
-  }
-
-  .attractions__cards-kursk {
-    padding-bottom: 89px;
-  }
-  .attractions__cards-kolsk {
-    padding-bottom: 89px;
-  }
-  .attractions__cards-altay {
-    padding-bottom: 90px;
-  }
-  .attractions__cards-baykal {
-    padding-bottom: 90px;
-  }
-  .attractions__cards-karelia {
-    padding-bottom: 0px;
+    justify-content:flex-start;
   }
 
   .attractions__h3 h3 {

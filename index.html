@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,23 +7,24 @@
     <link rel="stylesheet" href="./css/null-style.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link type="image/x-icon" href="/img/fav.png" rel="shortcut icon">
-    <title>Travel</title>
+    <title>Путешествия</title>
   </head>
   <body>
     <div class="all-document">
       <header class="header">
-        <div class="logo">
+        <div class="header__logo">
           <a href="#">
-            <img class="logo__img" src="./img/logo.png" alt="logo" />
+            <img class="header__logo-img" src="./img/logo.png" alt="logo" />
           </a>
         </div>
-        <div class="language">
-          <p class="language__ru">Ru</p>
-          <p class="language__eng">En</p>
-        </div>
+        <ul class="header__language">
+          <li class="header__language-ru">Ru</li>
+          <li class="header__language-eng">En</li>
+        </ul>
       </header>
       <main>
         <section class="real-russia">
+          <!-- лишний див возможно -->
           <div class="real-russia__text">
             <h1>Путешествия по России</h1>
             <p class="real-russia__tagline">
@@ -35,11 +36,11 @@
           </div>
           <p class="real-russia__describe-foto">ваша полка — верхняя</p>
         </section>
-        <section class="wacation-statistick">
-          <div class="wacation-statistick__header">
+        <section class="vacation-statistick">
+          <div class="vacation-statistick__header">
             <h2>Чего мы там не видели?</h2>
           </div>
-          <div class="wacation-statistick__main-text">
+          <div class="vacation-statistick__main-text">
             <p>
               По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
               только 36% планируют провести отпуск в родной стране. Мол, чего мы
@@ -53,18 +54,18 @@
               достойные вашего отпуска.
             </p>
           </div>
-          <div class="wacation-statistick__fackts">
+          <div class="vacation-statistick__fackts">
             <ul>
-              <li>Часовых поясов 11</li>
-              <li>Объектов природного наследия ЮНЕСКО 12</li>
-              <li>Объектов культурного наследия ЮНЕСКО 16</li>
-              <li>Природных заповедников 105</li>
-              <li>Аэропортов 241</li>
+              <li>Часовых поясов <span>11</span></li>
+              <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
+              <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
+              <li>Природных заповедников <span>105</span></li>
+              <li>Аэропортов <span>241</span></li>
+              <!-- добавить спаны на цифры -->
             </ul>
           </div>
         </section>
         <section class="russian-foto">
-          <div class="russian-foto__container">
             <img src="./img/1.png" alt="1" />
             <img src="./img/2.png" alt="2" />
             <img src="./img/3.png" alt="3" />
@@ -77,21 +78,19 @@
             <img src="./img/10.png" alt="10" />
             <img src="./img/11.png" alt="11" />
             <img src="./img/13.png" alt="13" />
-          </div>
         </section>
         <section class="attractions">
-          <div class="attractions__cards attractions__cards-kursk">
-            <div class="attractions__h3 attractions__h3-kursk">
+
+          <div class="attractions__cards">
+            <div class="attractions__h3">
               <h3>Куршская коса</h3>
-              <div class="attractions__link attractions__link-kursk">
-                <p>url</p>
-                <a href="http://park-kosa.ru">park-kosa.ru</a>
-              </div>
+              <ul class="attractions__link">
+                <li>url</li>
+                <li><a href="http://park-kosa.ru">park-kosa.ru</a></li>
+              </ul>
             </div>
             <div class="attraction__container">
-              <div class="attractions__img">
-                <img src="./img/kurska_kasa.png" alt="KK" />
-              </div>
+                <img class="attractions__img" src="./img/kurska_kasa.png" alt="KK" />
               <div class="attractions__text">
                 <p class="attractions__text-p1">
                   Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -111,18 +110,16 @@
             </div>
           </div>
 
-          <div class="attractions__cards attractions__cards-kolsk">
-            <div class="attractions__h3 attractions__h3-kolsk">
+          <div class="attractions__cards">
+            <div class="attractions__h3">
               <h3>Кольский</h3>
-              <div class="attractions__link">
-                <p>url</p>
-                <a href="http://park-kosa.ru">National Geographic</a>
-              </div>
+              <ul class="attractions__link">
+                <li>url</li>
+                <li><a href="http://park-kosa.ru">National Geographic</a></li>
+              </ul>
             </div>
             <div class="attraction__container">
-              <div class="attractions__img">
-                <img src="./img/kolsk.png" alt="KK" />
-              </div>
+                <img class="attractions__img" src="./img/kolsk.png" alt="KK" />
               <div class="attractions__text">
                 <p class="attractions__text-p1">
                   Почти весь полуостров находится за Полярным кругом. Саамская
@@ -142,19 +139,17 @@
             </div>
           </div>
 
-          <div class="attractions__cards attractions__cards-altay">
-            <div class="attractions__h3 attractions__h3-altay">
+          <div class="attractions__cards">
+            <div class="attractions__h3">
               <h3>Алтай</h3>
-              <div class="attractions__link">
-                <p>url</p>
-                <a href="http://Facebook.com">Facebook</a>
-              </div>
+              <ul class="attractions__link">
+                <li>url</li>
+                <li><a href="http://Facebook.com">Facebook</a></li>
+              </ul>
             </div>
             
             <div class="attraction__container">
-              <div class="attractions__img">
-                <img src="./img/altay.png" alt="KK" />
-              </div>
+                <img class="attractions__img" src="./img/altay.png" alt="KK" />
               <div class="attractions__text">
                 <p class="attractions__text-p1">
                   Алтай — одно из красивейших мест в России. В первую очередь
@@ -175,21 +170,17 @@
             </div>
 
 
-          <div class="attractions__cards attractions__cards-baykal">
-            <div class="attractions__h3 attractions__h3-baykal">
+          <div class="attractions__cards">
+            <div class="attractions__h3">
               <h3>Зимний Байкал</h3>
-              <div class="attractions__link">
-                <p>url</p>
-                <a href="https://vk.com/baikalmile"
-                  >https://vk.com/baikalmile</a
-                >
-              </div>
+              <ul class="attractions__link">
+                <li>url</li>
+                <li><a href="https://vk.com/baikalmile">https://vk.com/baikalmile</a></li>
+              </ul>
             </div>
 
             <div class="attraction__container">
-              <div class="attractions__img">
-                <img src="./img/baykal_lake.png" alt="KK" />
-              </div>
+                <img class="attractions__img" src="./img/baykal_lake.png" alt="KK" />
               <div class="attractions__text">
                 <p class="attractions__text-p1">
                   Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -207,19 +198,17 @@
             </div>
           </div>
 
-          <div class="attractions__cards attractions__cards-karelia">
-            <div class="attractions__h3 attractions__h3-karelia">
+          <div class="attractions__cards">
+            <div class="attractions__h3">
               <h3>Карелия</h3>
-              <div class="attractions__link">
-                <p>url</p>
-                <a href="http://vodlozero.ru/">http://vodlozero.ru/</a>
-              </div>
+              <ul class="attractions__link">
+                <li>url</li>
+                <li><a href="http://vodlozero.ru/">http://vodlozero.ru/</a></li>
+              </ul>
             </div>
 
             <div class="attraction__container">
-              <div class="attractions__img">
-                <img src="./img/karelia.png" alt="KK" />
-              </div>
+                <img class="attractions__img" src="./img/karelia.png" alt="KK" />
               <div class="attractions__text">
                 <p class="attractions__text-p1">
                   Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -247,13 +236,15 @@
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer-menu">
-          <li class="footer-menu__link"><a href="#">Карты</a></li>
-          <li class="footer-menu__link"><a href="#">Погода</a></li>
-          <li class="footer-menu__link"><a href="#">Расписание</a></li>
-          <li class="footer-menu__link"><a href="#">Календарь</a></li>
-          <li class="footer-menu__link"><a href="#">Путешествия</a></li>
-        </ul>
+        <nav>
+          <ul class="footer-menu">
+            <li class="footer-menu__link"><a href="#">Карты</a></li>
+            <li class="footer-menu__link"><a href="#">Погода</a></li>
+            <li class="footer-menu__link"><a href="#">Расписание</a></li>
+            <li class="footer-menu__link"><a href="#">Календарь</a></li>
+            <li class="footer-menu__link"><a href="#">Путешествия</a></li>
+          </ul>
+        </nav>
         <div class="footer-autograph">
           <p>© 2023. <a href="https://github.com/ValeryAsh">ValeryAsh</a></p>
         </div>
